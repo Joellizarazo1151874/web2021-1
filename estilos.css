@@ -11,17 +11,54 @@ body{
 }
 
 header{
-	height: 270px;
+	height: 320px;
 	width: 100%;
 	text-align: center;
 	image-rendering: 
-	line-height: -100px;
+	line-height: 100px;
 	color: black; 
+	font-size: 20px;
+}
+
+.article{
+	color: black;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #222;
+	font-size: 20px;
 }
 
 aside{
 	float: left;
 	width: 100%;
+	font-size: 20px;
+	border-bottom: 1px solid #222;
+}
+
+table{
+	width: 100%;
+	border: 1px solid #000;
+	border-collapse: separate;
+	border-spacing: 1px;
+	background: #000 url("gradient.gif") bottom left repeat-x;
+	color: #fff;
+}	
+th, td{
+	background: #fff;
+	color: #000;
+	width: 1%;
+	text-align: left;
+	vertical-align: top;
+	border: 1px solid #000;
+	text-align: center;
+}
+
+button{
+	width: 25%;
+	font-size: 15px;
+	border-bottom: 3px solid #222;
+	margin-top: 15px;
 }
 
 footer{
@@ -30,5 +67,4 @@ footer{
 	width: 1078px;
 	margin: auto;
 	border: 1px solid black;
-
 }
