@@ -1,35 +1,41 @@
 body{
-		background: orange;
-		font-family: Calibri;
+	background-image: url(img/mikasa3.jpg);
+	background-size: 100vw 100vh;
+ 	background-attachment: fixed;
+  	margin: 0;
+  	font-family: monospace;
 }
 
 #container{
 	width: 1000px;
-	margin: 0px auto;
-	border: 40px solid white;
-	background: white;
+	margin: auto;
+	background: rgba(0,0,0,0.6);
+	padding: 10px 20px;
+  	box-sizing: border-box;
+  	margin-top: 20px;
+  	border-radius: 7px;
 }
 
 header{
-	height: 320px;
 	width: 100%;
 	text-align: center;
 	image-rendering: 
 	line-height: 100px;
-	color: black; 
+	color: white; 
 	font-size: 20px;
 }
 
 .article{
-	color: black;
+	color: white;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	padding-bottom: 10px;
-	border-bottom: 1px solid #222;
+	border-bottom: 1px solid #fff;
 	font-size: 20px;
 }
 
 aside{
+	color: white;
 	float: left;
 	width: 100%;
 	font-size: 20px;
@@ -41,30 +47,30 @@ table{
 	border: 1px solid #000;
 	border-collapse: separate;
 	border-spacing: 1px;
-	background: #000 url("gradient.gif") bottom left repeat-x;
-	color: #fff;
 }	
 th, td{
-	background: #fff;
-	color: #000;
+	background: rgba(0,0,0,0.5);
+	color: white;
 	width: 1%;
 	text-align: left;
 	vertical-align: top;
-	border: 1px solid #000;
+	border: 1px solid #fff;
 	text-align: center;
 }
 
-button{
-	width: 25%;
-	font-size: 15px;
-	border-bottom: 3px solid #222;
-	margin-top: 15px;
+#boton{
+	margin: 20px;
+	background: #000;
+  	color: #fff;
+  	padding: 10px;
+}
+
+#boton:hover{
+  	cursor: pointer;
 }
 
 footer{
 	background: black;
 	color: white;
-	width: 1078px;
-	margin: auto;
 	border: 1px solid black;
 }
